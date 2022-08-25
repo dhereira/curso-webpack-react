@@ -11,14 +11,14 @@ module.exports = { //este es un objeto donde viviran las configuraciones
         path : path.resolve(__dirname,'dist'), //se crea la carpeta dist, se puede cambiar el nombre pero no se recomienda por ser un estandar
         filename: 'bundle.js',
         publicPath: '/',
+ 
+    },
+    resolve: {
+        extensions:['.js', '.jsx'],
         alias: {
             '@components': path.resolve(__dirname,'src/components/'),
             'styles': path.resolve(__dirname, 'src/styles/')
         } 
-    },
-    resolve: {
-        extensions:['.js', '.jsx'],
-
     },
     mode: 'production',
     module:{
