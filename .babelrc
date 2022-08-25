@@ -1,0 +1,6 @@
+{
+    "presets": [
+        "@babel/preset-env", //nos permite a que webpack entienda la sintaxis de emacscript
+        "@babel/preset-react" //nos permite a que webpack entienda la sintaxis de react
+    ]
+}
