@@ -54,7 +54,7 @@ module.exports = { //este es un objeto donde viviran las configuraciones
        new MiniCssExtractPlugin({
         filename: '[name].css'
        }),
-       new CleanWebpackPlugin(),
+       new cleanWebpackPlugin(),
     ],
 optimization:{
     minimize: true,
